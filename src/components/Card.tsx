@@ -15,7 +15,7 @@ const Card = ({ repo }: { repo: Github }) => {
         alt="github trade-mark"
       />
       <p>{repo.description}</p>
-      <button>Repository</button>
+      <button>The Repository</button>
       <span>{repo.topics.join(', ')}</span>
     </div>
   );
